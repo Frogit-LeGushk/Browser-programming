@@ -1,0 +1,14 @@
+[
+    {
+        "position": 1,
+        "url": "jut.su",
+        "wrapper": {"id": "my-player", "className": ".video-js.vjs-default-skin.vjs-16-9.vjs-paused.vjs-controls-enabled.vjs-workinghover.vjs-v6.vjs-user-active.vjs-videojs-share.vjs-watermark"},
+        "item": {"id": "my-player_ima-ad-container", "className": ".my-player_ima-ad-container.ima-ad-container"},
+    },
+    {
+        "position": 2,
+        "url": "animego.org",
+        "wrapper": {"id": "player-iframe", "className": ""},
+        "item": {"id": "", "className": ".player-container > div"}
+    }
+]

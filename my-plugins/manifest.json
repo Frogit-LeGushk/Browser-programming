@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "extAdvertisingBlock",
+	"description": "Блокератор динамической рекламы",
+	"version": "1.0.0",
+	"content_scripts": [
+		{
+			"matches": ["https://*/*"],
+			"run_at": "document_idle",
+			"css": ["extention.css"],
+			"js": ["extention.js"]
+		}
+	]
+}

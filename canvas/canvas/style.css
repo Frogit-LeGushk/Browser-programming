@@ -1,0 +1,25 @@
+body {
+    margin: 0; 
+    height: 100vh; 
+    overflow: hidden;
+    background-color: black;
+}
+
+#canvasContainer {
+    background-color: black;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+    width: 50%; 
+    border-right: 2px solid #fff;
+    border-left: 2px solid #fff;
+    align-content: center;
+    justify-content: center;
+    height: 100vh; 
+}
+
+
+
+
+

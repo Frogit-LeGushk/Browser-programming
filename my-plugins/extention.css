@@ -1,0 +1,48 @@
+#extAdvertisingBlock {
+    min-width: 310px !important;
+    width: 95% !important;
+    max-width: 500px !important;
+    position: fixed !important;
+    left: 50% !important;
+    transform: translateX(-50%) translateY(-50%) !important;
+    height: 80vh !important;
+    overflow-y: auto !important;
+    border: 1px solid #004d40 !important;
+    background-color: #64ffda !important;
+    padding: 0.5rem 0.25rem !important;
+    color: black;
+}
+
+#extAdvertisingBlock > h5 {
+    text-align: center !important;
+    font-size: 1.1rem !important;
+    font-weight: bold !important;
+    margin: 0.5rem 0 !important;
+}
+
+#extAdvertisingBlock > form > p {
+    text-align: center !important;
+    padding: 1rem 0 !important;
+}
+
+#extAdvertisingBlock > ul {
+    list-style: none !important;
+    padding: 0 !important;
+}
+ 
+#extAdvertisingBlock > form > button {
+    margin-left: 0.75rem !important;
+}
+
+#extAdvertisingBlock.show {
+    z-index: 1000 !important;
+    top: 50% !important; 
+}
+
+#extAdvertisingBlock.hidden {
+    z-index: -1000 !important;
+    top: -150% !important; 
+}
+
+
+
