@@ -1,0 +1,102 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 305px;
+    min-height: 305px;
+    box-sizing: border-box;
+    /* width: 100%;
+    height: 100%; */
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+main {
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 295px;
+    min-height: 295px;
+
+    width: 95%;
+    height: 95%;
+
+    padding: 0.5rem;
+
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6.5rem;
+    transition: all 0.1s linear;
+}
+main:hover {
+    box-shadow: 2px 2px 14px;
+}
+main .frog, .bug {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    transform-origin: center center;
+    transition: all 0.1s linear;
+}
+
+main > span {
+    position: absolute;
+    display: block;
+    padding: 0;
+    margin: 0;
+    border-width: 1px;
+    border-style: dotted;
+    border-radius: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 20px;
+    height: 20px;
+    transition: all 0.1s linear;
+}
+main:hover > span {
+    border-width: 0px;
+}
+
+main > .frog > path, ellipse {
+    stroke: black;
+    stroke-width: 1.5;
+}
+main > .bug > path, ellipse {
+    stroke: black;
+    stroke-width: 1.7;
+}
+body.theme_dark {
+    background-color: black;
+}
+body.theme_dark > main {
+    border-color: wheat;
+}
+body.theme_dark > main:hover {
+    box-shadow: 2px 2px 14px wheat;
+}
+body.theme_dark > main > span {
+    border-color: wheat;
+}
+body.theme_dark > main > .frog > path {
+    stroke: wheat;
+}
+body.theme_dark > main > .bug > path {
+    stroke: wheat;
+}
+body.theme_dark > main > .frog > ellipse {
+    stroke: wheat;
+}
+body.theme_dark > main > .bug > ellipse {
+    stroke: wheat;
+}
+
+
+
+
+
+
+
+
+
